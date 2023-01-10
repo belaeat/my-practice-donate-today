@@ -3,11 +3,11 @@
     font-family: 'Inter', sans-serif;
 }
 
-header {  
+header {
     background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(../images/donation3.jpg);
     background-repeat: no-repeat;
     text-align: center;
-    width: 1440px;
+    width: 1366px;
     height: 669px;
 }
 
@@ -18,18 +18,14 @@ header {
     padding: 175px 305px;
 }
 
-/* .header-content {
-    margin: 175px 305px;
-} */
-
-.section-title {
+.header-title {
     font-weight: 700;
     font-size: 65px;
     margin-bottom: 20px;
     color: #FFFFFF;
 }
 
-.section-description {
+.header-description {
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 30px;
@@ -48,5 +44,83 @@ header {
 /* Main content here */
 
 main {
-    max-width: 1140px;
+    max-width: 1366px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.donate-today {
+    text-align: center;
+    margin: 130px 335px;
+}
+
+.section-title {
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    text-align: center;
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.donation-money {
+    display: flex;
+    justify-content: space-between;
+    gap: 22;
+    align-items: center;
+}
+
+.donation-amount {
+    text-align: center;
+    height: 50px;
+    width: 136px;
+    font-size: 30px;
+    font-weight: 700;
+    background: #FAFAFA;
+    color: #707070;
+    border-radius: 5px;
+    text-align: center;
+    padding: 43px 25px;
+    margin-bottom: 60px;
+}
+
+.special-amount {
+    text-align: center;
+    height: auto;
+    width: 136px;
+    font-size: 30px;
+    font-weight: 700;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    text-align: center;
+    padding: 43px 25px;
+    color: #FF5959;
+    margin-bottom: 60px;
+}
+
+.custom-amount {
+    color: #707070;
+    width: 192px;
+    height: 28px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 765px;
+    border: 1px solid #DADADA;
+    margin-bottom: 30px;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    
 }
