@@ -44,14 +44,14 @@ header {
 /* Main content here */
 
 main {
-    max-width: 1366px;
+    max-width: 1140px;
     background-color: #FFFFFF;
     text-align: center;
 }
 
 .donate-today {
     text-align: center;
-    margin: 130px 335px;
+    margin-top: 130px;
 }
 
 .section-title {
@@ -72,8 +72,7 @@ main {
 .donation-money {
     display: flex;
     justify-content: space-between;
-    gap: 22;
-    align-items: center;
+    gap: 22px;
 }
 
 .donation-amount {
@@ -122,5 +121,50 @@ hr {
 textarea {
     border: none;
     outline: none;
-    
+
+}
+
+/* donate-plan section */
+
+.donate-plan {
+    text-align: center;
+}
+
+.donation-container {
+
+    display: flex;
+    gap: 24px;
+}
+
+.donation-plan-one {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+    text-align: left;
+}
+.donation-plan-two {
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+    text-align: left;
+}
+.donation-plan-three {
+    background: rgba(246, 200, 73, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+    text-align: left;
+}
+
+.donation-title {
+    color: #121212;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.donation-description {
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
 }
