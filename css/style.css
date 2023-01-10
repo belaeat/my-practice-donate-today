@@ -1,24 +1,23 @@
 * {
     margin: 0;
     font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
 }
 
 header {
     background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(../images/donation3.jpg);
     background-repeat: no-repeat;
     text-align: center;
-    width: 1366px;
-    height: 669px;
 }
 
 .header {
     height: 320px;
     width: 826px;
-    text-align: center;
     padding: 175px 305px;
 }
 
 .header-title {
+    font-family: Inter;
     font-weight: 700;
     font-size: 65px;
     margin-bottom: 20px;
@@ -26,6 +25,7 @@ header {
 }
 
 .header-description {
+    font-family: Inter;
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 30px;
@@ -33,7 +33,9 @@ header {
 }
 
 .btn-primary {
+    font-family: Inter;
     color: #FFFFFF;
+    border: none;
     background: #FF5959;
     border-radius: 5px;
     font-size: 20px;
@@ -45,16 +47,19 @@ header {
 
 main {
     max-width: 1140px;
-    background-color: #FFFFFF;
-    text-align: center;
+    margin: 0 auto;
 }
 
 .donate-today {
     text-align: center;
-    margin-top: 130px;
+    padding-top: 130px;
+    padding-left: 157px;
+    padding-bottom: 130px;
+    padding-right: 157px;
 }
 
 .section-title {
+    font-family: Inter;
     color: #121212;
     font-size: 45px;
     font-weight: 700;
@@ -62,7 +67,7 @@ main {
 }
 
 .section-description {
-    text-align: center;
+    font-family: Inter;
     color: #707070;
     font-size: 18px;
     font-weight: 400;
@@ -71,12 +76,11 @@ main {
 
 .donation-money {
     display: flex;
-    justify-content: space-between;
     gap: 22px;
 }
 
 .donation-amount {
-    text-align: center;
+    font-family: Inter;
     height: 50px;
     width: 136px;
     font-size: 30px;
@@ -84,13 +88,12 @@ main {
     background: #FAFAFA;
     color: #707070;
     border-radius: 5px;
-    text-align: center;
     padding: 43px 25px;
     margin-bottom: 60px;
 }
 
 .special-amount {
-    text-align: center;
+    font-family: Inter;
     height: auto;
     width: 136px;
     font-size: 30px;
@@ -98,16 +101,18 @@ main {
     background: #FFEEEE;
     border: 2px solid #FF5959;
     border-radius: 5px;
-    text-align: center;
     padding: 43px 25px;
     color: #FF5959;
     margin-bottom: 60px;
 }
 
 .custom-amount {
+    font-family: Inter;
     color: #707070;
     width: 192px;
     height: 28px;
+    color: #B3B3B3;
+    font-size: 18px;
     border: none;
     margin-bottom: 10px;
 }
@@ -128,10 +133,13 @@ textarea {
 
 .donate-plan {
     text-align: center;
+    padding-top: 130px;
+    padding-left: 157px;
+    padding-bottom: 130px;
+    padding-right: 157px;
 }
 
 .donation-container {
-
     display: flex;
     gap: 24px;
 }
@@ -142,12 +150,14 @@ textarea {
     padding: 30px;
     text-align: left;
 }
+
 .donation-plan-two {
     background: rgba(255, 89, 89, 0.1);
     border-radius: 5px;
     padding: 30px;
     text-align: left;
 }
+
 .donation-plan-three {
     background: rgba(246, 200, 73, 0.1);
     border-radius: 5px;
@@ -156,6 +166,7 @@ textarea {
 }
 
 .donation-title {
+    font-family: Inter;
     color: #121212;
     font-size: 24px;
     font-weight: 600;
@@ -164,7 +175,87 @@ textarea {
 }
 
 .donation-description {
+    font-family: Inter;
     color: #707070;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* crisis-section */
+
+.crisis {
+    font-family: Inter;
+    text-align: center;
+}
+
+.crisis-container {
+    display: flex;
+    gap: 94px;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.crisis-content {
+    text-align: left;
+
+}
+
+.crisis img {
+    width: 456px;
+    height: 477px;
+}
+
+/* get-updates section */
+
+.get-updates {
+    margin-bottom: 130px;
+}
+
+.sub-form {
+    background: #FFF4D6;
+    text-align: center;
+    padding: 76px 188px;
+}
+
+.updates {
+    height: 48px;
+    width: 432px;
+    border: none;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+}
+
+input::placeholder {
+    padding-left: 17px;
+    font-family: Inter;
+}
+
+.get-updates .btn-primary {
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 0;
+    border: 0;
+}
+
+/* footer section */
+
+footer {
+    height: 177px;
+    background: #0B0D17;
+    text-align: center;
+}
+
+.footer-title {
+    font-family: Lobster;
+    color: #FF5959;
+    font-weight: 400px;
+    font-size: 36px;
+    padding-top: 43px;
+    padding-bottom: 24px;
+}
+
+.footer-description {
+    color: #D9DBE1;
+    font-family: Inter;
+    font-size: 14px;
 }
